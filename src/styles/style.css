@@ -1,0 +1,63 @@
+html {
+  font-family: Dosis, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 50px;
+}
+
+p {
+  font-size: 17px;
+}
+
+:root {
+  --body_background: hsl(0, 0%, 100%);
+  --body_color: black;
+}
+
+
+/*==== NAVIGATION ====*/
+
+/* Nav bar */
+
+.nav {
+  background: hsl(221, 85%, 62%);
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0 0 0 var(--sideSpacing);
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Items container */
+
+.nav__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Items */
+.nav__menu__item__a {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 3rem 1.5rem;
+}
+
+.nav__menu__item__a:hover {
+  color: rgb(83, 206, 240);
+}
